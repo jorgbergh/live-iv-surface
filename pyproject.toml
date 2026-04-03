@@ -1,0 +1,14 @@
+[project]
+name = "live-vol-surface"
+version = "0.1.0"
+description = "Live implied volatility surface viewer for Interactive Brokers data"
+requires-python = ">=3.11"
+dependencies = [
+    "ibapi>=9.81.1.post1",
+    "matplotlib>=3.9",
+    "numpy>=2.0",
+    "pandas>=2.2",
+]
+
+[tool.uv]
+package = false
